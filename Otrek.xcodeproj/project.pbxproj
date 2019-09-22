@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25BD397A233808EC0035A9FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BD3979233808EC0035A9FF /* AppDelegate.swift */; };
+		25BD397C233808EC0035A9FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BD397B233808EC0035A9FF /* ViewController.swift */; };
+		25BD397F233808EC0035A9FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BD397D233808EC0035A9FF /* Main.storyboard */; };
+		25BD3981233808EE0035A9FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BD3980233808EE0035A9FF /* Assets.xcassets */; };
+		25BD3984233808EE0035A9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BD3982233808EE0035A9FF /* LaunchScreen.storyboard */; };
+		25BD398F233808EF0035A9FF /* OtrekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BD398E233808EF0035A9FF /* OtrekTests.swift */; };
+		25BD399A233808EF0035A9FF /* OtrekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BD3999233808EF0035A9FF /* OtrekUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25BD398B233808EF0035A9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25BD396E233808EC0035A9FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BD3975233808EC0035A9FF;
+			remoteInfo = Otrek;
+		};
+		25BD3996233808EF0035A9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25BD396E233808EC0035A9FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BD3975233808EC0035A9FF;
+			remoteInfo = Otrek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25BD3976233808EC0035A9FF /* Otrek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otrek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BD3979233808EC0035A9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25BD397B233808EC0035A9FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25BD397E233808EC0035A9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25BD3980233808EE0035A9FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25BD3983233808EE0035A9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25BD3985233808EE0035A9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BD398A233808EF0035A9FF /* OtrekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtrekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BD398E233808EF0035A9FF /* OtrekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtrekTests.swift; sourceTree = "<group>"; };
+		25BD3990233808EF0035A9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BD3995233808EF0035A9FF /* OtrekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtrekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BD3999233808EF0035A9FF /* OtrekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtrekUITests.swift; sourceTree = "<group>"; };
+		25BD399B233808EF0035A9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25BD3973233808EC0035A9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BD3987233808EF0035A9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BD3992233808EF0035A9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25BD396D233808EC0035A9FF = {
+			isa = PBXGroup;
+			children = (
+				25BD3978233808EC0035A9FF /* Otrek */,
+				25BD398D233808EF0035A9FF /* OtrekTests */,
+				25BD3998233808EF0035A9FF /* OtrekUITests */,
+				25BD3977233808EC0035A9FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25BD3977233808EC0035A9FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25BD3976233808EC0035A9FF /* Otrek.app */,
+				25BD398A233808EF0035A9FF /* OtrekTests.xctest */,
+				25BD3995233808EF0035A9FF /* OtrekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25BD3978233808EC0035A9FF /* Otrek */ = {
+			isa = PBXGroup;
+			children = (
+				25BD3979233808EC0035A9FF /* AppDelegate.swift */,
+				25BD397B233808EC0035A9FF /* ViewController.swift */,
+				25BD397D233808EC0035A9FF /* Main.storyboard */,
+				25BD3980233808EE0035A9FF /* Assets.xcassets */,
+				25BD3982233808EE0035A9FF /* LaunchScreen.storyboard */,
+				25BD3985233808EE0035A9FF /* Info.plist */,
+			);
+			path = Otrek;
+			sourceTree = "<group>";
+		};
+		25BD398D233808EF0035A9FF /* OtrekTests */ = {
+			isa = PBXGroup;
+			children = (
+				25BD398E233808EF0035A9FF /* OtrekTests.swift */,
+				25BD3990233808EF0035A9FF /* Info.plist */,
+			);
+			path = OtrekTests;
+			sourceTree = "<group>";
+		};
+		25BD3998233808EF0035A9FF /* OtrekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25BD3999233808EF0035A9FF /* OtrekUITests.swift */,
+				25BD399B233808EF0035A9FF /* Info.plist */,
+			);
+			path = OtrekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25BD3975233808EC0035A9FF /* Otrek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BD399E233808EF0035A9FF /* Build configuration list for PBXNativeTarget "Otrek" */;
+			buildPhases = (
+				25BD3972233808EC0035A9FF /* Sources */,
+				25BD3973233808EC0035A9FF /* Frameworks */,
+				25BD3974233808EC0035A9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Otrek;
+			productName = Otrek;
+			productReference = 25BD3976233808EC0035A9FF /* Otrek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25BD3989233808EF0035A9FF /* OtrekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BD39A1233808EF0035A9FF /* Build configuration list for PBXNativeTarget "OtrekTests" */;
+			buildPhases = (
+				25BD3986233808EF0035A9FF /* Sources */,
+				25BD3987233808EF0035A9FF /* Frameworks */,
+				25BD3988233808EF0035A9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BD398C233808EF0035A9FF /* PBXTargetDependency */,
+			);
+			name = OtrekTests;
+			productName = OtrekTests;
+			productReference = 25BD398A233808EF0035A9FF /* OtrekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25BD3994233808EF0035A9FF /* OtrekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BD39A4233808EF0035A9FF /* Build configuration list for PBXNativeTarget "OtrekUITests" */;
+			buildPhases = (
+				25BD3991233808EF0035A9FF /* Sources */,
+				25BD3992233808EF0035A9FF /* Frameworks */,
+				25BD3993233808EF0035A9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BD3997233808EF0035A9FF /* PBXTargetDependency */,
+			);
+			name = OtrekUITests;
+			productName = OtrekUITests;
+			productReference = 25BD3995233808EF0035A9FF /* OtrekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25BD396E233808EC0035A9FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sprinthub Mobile";
+				TargetAttributes = {
+					25BD3975233808EC0035A9FF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					25BD3989233808EF0035A9FF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 25BD3975233808EC0035A9FF;
+					};
+					25BD3994233808EF0035A9FF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 25BD3975233808EC0035A9FF;
+					};
+				};
+			};
+			buildConfigurationList = 25BD3971233808EC0035A9FF /* Build configuration list for PBXProject "Otrek" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25BD396D233808EC0035A9FF;
+			productRefGroup = 25BD3977233808EC0035A9FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25BD3975233808EC0035A9FF /* Otrek */,
+				25BD3989233808EF0035A9FF /* OtrekTests */,
+				25BD3994233808EF0035A9FF /* OtrekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25BD3974233808EC0035A9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BD3984233808EE0035A9FF /* LaunchScreen.storyboard in Resources */,
+				25BD3981233808EE0035A9FF /* Assets.xcassets in Resources */,
+				25BD397F233808EC0035A9FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BD3988233808EF0035A9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BD3993233808EF0035A9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25BD3972233808EC0035A9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BD397C233808EC0035A9FF /* ViewController.swift in Sources */,
+				25BD397A233808EC0035A9FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BD3986233808EF0035A9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BD398F233808EF0035A9FF /* OtrekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BD3991233808EF0035A9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BD399A233808EF0035A9FF /* OtrekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25BD398C233808EF0035A9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BD3975233808EC0035A9FF /* Otrek */;
+			targetProxy = 25BD398B233808EF0035A9FF /* PBXContainerItemProxy */;
+		};
+		25BD3997233808EF0035A9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BD3975233808EC0035A9FF /* Otrek */;
+			targetProxy = 25BD3996233808EF0035A9FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25BD397D233808EC0035A9FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BD397E233808EC0035A9FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25BD3982233808EE0035A9FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BD3983233808EE0035A9FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25BD399C233808EF0035A9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25BD399D233808EF0035A9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25BD399F233808EF0035A9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VF3KBAZJF;
+				INFOPLIST_FILE = Otrek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.Otrek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25BD39A0233808EF0035A9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VF3KBAZJF;
+				INFOPLIST_FILE = Otrek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.Otrek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25BD39A2233808EF0035A9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VF3KBAZJF;
+				INFOPLIST_FILE = OtrekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.OtrekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Otrek.app/Otrek";
+			};
+			name = Debug;
+		};
+		25BD39A3233808EF0035A9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VF3KBAZJF;
+				INFOPLIST_FILE = OtrekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.OtrekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Otrek.app/Otrek";
+			};
+			name = Release;
+		};
+		25BD39A5233808EF0035A9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VF3KBAZJF;
+				INFOPLIST_FILE = OtrekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.OtrekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Otrek;
+			};
+			name = Debug;
+		};
+		25BD39A6233808EF0035A9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VF3KBAZJF;
+				INFOPLIST_FILE = OtrekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.OtrekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Otrek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25BD3971233808EC0035A9FF /* Build configuration list for PBXProject "Otrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BD399C233808EF0035A9FF /* Debug */,
+				25BD399D233808EF0035A9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BD399E233808EF0035A9FF /* Build configuration list for PBXNativeTarget "Otrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BD399F233808EF0035A9FF /* Debug */,
+				25BD39A0233808EF0035A9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BD39A1233808EF0035A9FF /* Build configuration list for PBXNativeTarget "OtrekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BD39A2233808EF0035A9FF /* Debug */,
+				25BD39A3233808EF0035A9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BD39A4233808EF0035A9FF /* Build configuration list for PBXNativeTarget "OtrekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BD39A5233808EF0035A9FF /* Debug */,
+				25BD39A6233808EF0035A9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25BD396E233808EC0035A9FF /* Project object */;
+}
