@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25930BA52339159E00489366 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25930BA42339159E00489366 /* GoogleService-Info.plist */; };
 		25BD397A233808EC0035A9FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BD3979233808EC0035A9FF /* AppDelegate.swift */; };
 		25BD397C233808EC0035A9FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BD397B233808EC0035A9FF /* ViewController.swift */; };
 		25BD397F233808EC0035A9FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BD397D233808EC0035A9FF /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		25BD3984233808EE0035A9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BD3982233808EE0035A9FF /* LaunchScreen.storyboard */; };
 		25BD398F233808EF0035A9FF /* OtrekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BD398E233808EF0035A9FF /* OtrekTests.swift */; };
 		25BD399A233808EF0035A9FF /* OtrekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BD3999233808EF0035A9FF /* OtrekUITests.swift */; };
+		80A673A75611C1D34478DC39 /* Pods_Otrek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E299AD4D30DA5592AB427A /* Pods_Otrek.framework */; };
+		9A4571F1BABB7C7D6AEC6773 /* Pods_OtrekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4901D8051F618F33345A22E4 /* Pods_OtrekUITests.framework */; };
+		FFC63C8A16419C2D063B3D1D /* Pods_OtrekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0A251EE5805BF9DAD74D5E /* Pods_OtrekTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09E299AD4D30DA5592AB427A /* Pods_Otrek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otrek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111347DBD1A428DFFA2EA72A /* Pods-OtrekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtrekTests.debug.xcconfig"; path = "Target Support Files/Pods-OtrekTests/Pods-OtrekTests.debug.xcconfig"; sourceTree = "<group>"; };
+		119B4802888C235C8108FD47 /* Pods-Otrek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otrek.release.xcconfig"; path = "Target Support Files/Pods-Otrek/Pods-Otrek.release.xcconfig"; sourceTree = "<group>"; };
+		1D0F7C7B6D66419E264D2706 /* Pods-OtrekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtrekUITests.release.xcconfig"; path = "Target Support Files/Pods-OtrekUITests/Pods-OtrekUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25930BA42339159E00489366 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		25BD3976233808EC0035A9FF /* Otrek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otrek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BD3979233808EC0035A9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25BD397B233808EC0035A9FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		25BD3995233808EF0035A9FF /* OtrekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtrekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BD3999233808EF0035A9FF /* OtrekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtrekUITests.swift; sourceTree = "<group>"; };
 		25BD399B233808EF0035A9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC8CC91FF4436F2C40A6F29 /* Pods-OtrekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtrekUITests.debug.xcconfig"; path = "Target Support Files/Pods-OtrekUITests/Pods-OtrekUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4901D8051F618F33345A22E4 /* Pods_OtrekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtrekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D159E7CE4772548470D5EA97 /* Pods-OtrekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtrekTests.release.xcconfig"; path = "Target Support Files/Pods-OtrekTests/Pods-OtrekTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEBB3DD0C767D720E7E30389 /* Pods-Otrek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otrek.debug.xcconfig"; path = "Target Support Files/Pods-Otrek/Pods-Otrek.debug.xcconfig"; sourceTree = "<group>"; };
+		FC0A251EE5805BF9DAD74D5E /* Pods_OtrekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtrekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80A673A75611C1D34478DC39 /* Pods_Otrek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC63C8A16419C2D063B3D1D /* Pods_OtrekTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4571F1BABB7C7D6AEC6773 /* Pods_OtrekUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				25BD398D233808EF0035A9FF /* OtrekTests */,
 				25BD3998233808EF0035A9FF /* OtrekUITests */,
 				25BD3977233808EC0035A9FF /* Products */,
+				848195F585F6B8F35482AE8F /* Pods */,
+				EA171A8C1C11D9B1F7FD2F02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +116,7 @@
 		25BD3978233808EC0035A9FF /* Otrek */ = {
 			isa = PBXGroup;
 			children = (
+				25930BA42339159E00489366 /* GoogleService-Info.plist */,
 				25BD3979233808EC0035A9FF /* AppDelegate.swift */,
 				25BD397B233808EC0035A9FF /* ViewController.swift */,
 				25BD397D233808EC0035A9FF /* Main.storyboard */,
@@ -125,6 +145,29 @@
 			path = OtrekUITests;
 			sourceTree = "<group>";
 		};
+		848195F585F6B8F35482AE8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEBB3DD0C767D720E7E30389 /* Pods-Otrek.debug.xcconfig */,
+				119B4802888C235C8108FD47 /* Pods-Otrek.release.xcconfig */,
+				111347DBD1A428DFFA2EA72A /* Pods-OtrekTests.debug.xcconfig */,
+				D159E7CE4772548470D5EA97 /* Pods-OtrekTests.release.xcconfig */,
+				3DC8CC91FF4436F2C40A6F29 /* Pods-OtrekUITests.debug.xcconfig */,
+				1D0F7C7B6D66419E264D2706 /* Pods-OtrekUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA171A8C1C11D9B1F7FD2F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09E299AD4D30DA5592AB427A /* Pods_Otrek.framework */,
+				FC0A251EE5805BF9DAD74D5E /* Pods_OtrekTests.framework */,
+				4901D8051F618F33345A22E4 /* Pods_OtrekUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25BD399E233808EF0035A9FF /* Build configuration list for PBXNativeTarget "Otrek" */;
 			buildPhases = (
+				3B2C42AD4A8A69C590DA4570 /* [CP] Check Pods Manifest.lock */,
 				25BD3972233808EC0035A9FF /* Sources */,
 				25BD3973233808EC0035A9FF /* Frameworks */,
 				25BD3974233808EC0035A9FF /* Resources */,
+				F5DA80578DE3A7FED0F3BC75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25BD39A1233808EF0035A9FF /* Build configuration list for PBXNativeTarget "OtrekTests" */;
 			buildPhases = (
+				5834793F9D715D1CFFD1D801 /* [CP] Check Pods Manifest.lock */,
 				25BD3986233808EF0035A9FF /* Sources */,
 				25BD3987233808EF0035A9FF /* Frameworks */,
 				25BD3988233808EF0035A9FF /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25BD39A4233808EF0035A9FF /* Build configuration list for PBXNativeTarget "OtrekUITests" */;
 			buildPhases = (
+				175CB1405622D1DC060241E0 /* [CP] Check Pods Manifest.lock */,
 				25BD3991233808EF0035A9FF /* Sources */,
 				25BD3992233808EF0035A9FF /* Frameworks */,
 				25BD3993233808EF0035A9FF /* Resources */,
@@ -230,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25BD3984233808EE0035A9FF /* LaunchScreen.storyboard in Resources */,
+				25930BA52339159E00489366 /* GoogleService-Info.plist in Resources */,
 				25BD3981233808EE0035A9FF /* Assets.xcassets in Resources */,
 				25BD397F233808EC0035A9FF /* Main.storyboard in Resources */,
 			);
@@ -250,6 +298,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		175CB1405622D1DC060241E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtrekUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B2C42AD4A8A69C590DA4570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Otrek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5834793F9D715D1CFFD1D801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtrekTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DA80578DE3A7FED0F3BC75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Otrek/Pods-Otrek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Otrek/Pods-Otrek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Otrek/Pods-Otrek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25BD3972233808EC0035A9FF /* Sources */ = {
@@ -430,6 +564,7 @@
 		};
 		25BD399F233808EF0035A9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBB3DD0C767D720E7E30389 /* Pods-Otrek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +583,7 @@
 		};
 		25BD39A0233808EF0035A9FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119B4802888C235C8108FD47 /* Pods-Otrek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +602,7 @@
 		};
 		25BD39A2233808EF0035A9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111347DBD1A428DFFA2EA72A /* Pods-OtrekTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +624,7 @@
 		};
 		25BD39A3233808EF0035A9FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D159E7CE4772548470D5EA97 /* Pods-OtrekTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +646,7 @@
 		};
 		25BD39A5233808EF0035A9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC8CC91FF4436F2C40A6F29 /* Pods-OtrekUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +667,7 @@
 		};
 		25BD39A6233808EF0035A9FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0F7C7B6D66419E264D2706 /* Pods-OtrekUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
