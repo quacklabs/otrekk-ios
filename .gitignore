@@ -133,3 +133,4 @@ iOSInjectionProject/
 # private files
 Otrek/GoogleService-Info.plist
 Pods/
+Pods/*
